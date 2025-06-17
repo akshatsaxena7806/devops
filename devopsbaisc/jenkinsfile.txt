@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git url: 'https://github.com/akshatsaxena7806/core_java.git', branch: 'main'
+                git url: 'https://github.com/akshatsaxena7806/devops.git', branch: 'main'
             }
         }
 
